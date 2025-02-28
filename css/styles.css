@@ -48,6 +48,27 @@ h1 {
     z-index: 2;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF5EE; /* Light warm background */
+    padding: 10px 0;
+    border-radius: 10px; /* Soft edges */
+    margin: 20px 0;
+}
+
+nav a {
+    color: #4B3D3D;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #D2691E; /* Warm color */
+}
+
 .tagline {
     font-size: 1.5em;
     color: #6A4C93;
