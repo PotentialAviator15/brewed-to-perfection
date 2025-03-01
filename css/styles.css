@@ -20,7 +20,6 @@ h1 {
 }
 
 .hero {
-    background: url('./assets/headerbackground.png') no-repeat center center;
     background-size: cover;
     padding: 100px 20px;
     text-align: center;
@@ -31,7 +30,7 @@ h1 {
     align-items: center;
     position: relative;
 }
-
+/* 
 .hero::before {
     content: '';
     position: absolute;
@@ -40,14 +39,19 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 1;
-}
 
-.hero * {
-    position: relative;
+.hero {
+    position: absolute;
     z-index: 2;
 }
 
+/* .hero img {
+
+} */
+
+.hero em {
+    font:cursive;
+}
 nav {
     display: flex;
     justify-content: center;
@@ -69,6 +73,7 @@ nav a:hover {
     color: #D2691E; /* Warm color */
 }
 
+
 .tagline {
     font-size: 1.5em;
     color: #6A4C93;
@@ -85,7 +90,7 @@ nav a:hover {
 }
 
 .menu {
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 }
 
 .contact {
