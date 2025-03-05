@@ -6,20 +6,24 @@ This project is a simple coffee shop website called "Perfect Pour Café". It fea
 ## Project Structure
 ```
 coffee-shop-website
-├── src
+├── assets
 │   ├── css
 │   │   └── styles.css
 │   ├── images
+│   │   └── logo.png
 │   ├── js
 │   │   └── scripts.js
-│   └── index.html
-└── README.md
+├── pages
+│   ├── about.html
+│   ├── contact.html
+│   └── menu.html
+└── index.html
 ```
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
-3. Open `src/index.html` in your web browser to view the website.
+3. Open `index.html` in your web browser to view the website.
 
 ## Technologies Used
 - HTML5
